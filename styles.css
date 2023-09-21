@@ -1,1 +1,93 @@
-/* your code here */
+/* CSS code for styling the apple varieties portfolio webpage */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product__photo {
+    width: 50%;
+}
+
+.photo-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.photo-main img {
+    max-width: 100%;
+    height: auto;
+}
+
+.photo-album ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.photo-album li img {
+    max-width: 50px;
+    height: auto;
+}
+
+.product-details {
+    width: 40%;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #dddddd;
+}
+
+.price {
+    font-size: 24px;
+    color: #ff5733;
+    font-weight: bold;
+}
+
+.variant {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.variant-color {
+    width: 100px;
+    font-weight: bold;
+}
+
+.variant img {
+    max-width: 50px;
+    height: auto;
+}
+
+.description {
+    margin-top: 20px;
+}
+
+.description h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.add-to-cart {
+    background-color: #ff5733;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
